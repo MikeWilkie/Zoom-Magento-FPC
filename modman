@@ -1,0 +1,10 @@
+src/ezzoom.php ezzoom.php
+src/app/code/local/Ezapps/Tools app/code/local/Ezapps/Tools
+src/app/code/local/Ezapps/Zoom app/code/local/Ezapps/Zoom
+src/app/etc/modules/Ezapps_Tools.xml app/etc/modules/Ezapps_Tools.xml
+src/app/etc/modules/Ezapps_Zoom.xml app/etc/modules/Ezapps_Zoom.xml
+src/app/design/adminhtml/default/default/layout/ezzoom.xml app/design/adminhtml/default/default/layout/ezzoom.xml
+src/app/design/adminhtml/default/default/template/ezzoom app/design/adminhtml/default/default/template/ezzoom
+src/app/design/frontend/base/default/layout/ezzoom.xml app/design/frontend/base/default/layout/ezzoom.xml
+src/app/design/frontend/base/default/template/ezzoom app/design/frontend/base/default/template/ezzoom
+src/js/ezapps/ezzoom.js js/ezapps/ezzoom.js
