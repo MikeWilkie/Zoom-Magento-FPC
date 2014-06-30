@@ -1,0 +1,11 @@
+# Max OS X
+._*
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+/.settings
+/.buildpath
+/.project
+Icon

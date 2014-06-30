@@ -1,8 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <config>
-    <tabs>
-        <eztools translate="label" module="eztools">
-            <label>EZapps</label>
-            <sort_order>100</sort_order>
-        </eztools>
-    </tabs>
+  <tabs>
+    <eztools module="eztools" translate="label">
+      <label>EZapps</label>
+      <sort_order>100</sort_order>
+    </eztools>
+  </tabs>
 </config>

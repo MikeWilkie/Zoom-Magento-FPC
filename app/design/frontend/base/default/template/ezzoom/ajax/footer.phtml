@@ -11,19 +11,20 @@
  */
 
 
-$state 		= $this->getAllData();
-$holes 		= $this->getHoles();
-$url 		= 'ezzoom/hole/fill';
+$state 			= $this->getAllData();
+$holes 			= $this->getHoles();
+$url 			= 'ezzoom/hole/fill';
 $url_currency   = 'ezzoom/hole/convert';
 $path           = $this->getPath();
-$domain           = $this->getDomain();
+$domain         = $this->getDomain();
+$pagespeed		= ( Mage::getStoreConfig('ezzoom_general/basicsettings/pagespeed_defer') == 1 ) ? ' pagespeed_no_defer=""' : '';
 
 ?>
 <?php if (count($holes) > 0 || $this->getCurrencyConversion()) : ?>
 
 <?php echo $this->getAjaxPre() ?>
 
-<script type="text/javascript"> 
+<script type="text/javascript"<?php echo $pagespeed; ?>> 
 //<![CDATA[ 
  
 document.observe("dom:loaded", function() {
@@ -59,7 +60,7 @@ document.observe("dom:loaded", function() {
 
 <?php echo $this->getAjaxPreCurrency() ?>
 
-<script type="text/javascript"> 
+<script type="text/javascript"<?php echo $pagespeed; ?>> 
 //<![CDATA[ 
  
 document.observe("dom:loaded", function() {
@@ -84,7 +85,7 @@ document.observe("dom:loaded", function() {
 	 (is_object(Mage::getSingleton('core/layout')->getBlock("product_list_toolbar")) || Mage::registry('current_category') && !Mage::registry('current_product'))) : ?>
 <?php $cookies = $this->getCookieToSet(); ?>
 
-<script type="text/javascript"> 
+<script type="text/javascript"<?php echo $pagespeed; ?>> 
 //<![CDATA[ 
  
 document.observe("dom:loaded", function() { 

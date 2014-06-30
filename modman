@@ -7,4 +7,5 @@ app/design/adminhtml/default/default/layout/ezzoom.xml app/design/adminhtml/defa
 app/design/adminhtml/default/default/template/ezzoom app/design/adminhtml/default/default/template/ezzoom
 app/design/frontend/base/default/layout/ezzoom.xml app/design/frontend/base/default/layout/ezzoom.xml
 app/design/frontend/base/default/template/ezzoom app/design/frontend/base/default/template/ezzoom
+app/locale/en_US/Ezapps_Zoom.csv app/locale/en_US/Ezapps_Zoom.csv
 js/ezapps/ezzoom.js js/ezapps/ezzoom.js
