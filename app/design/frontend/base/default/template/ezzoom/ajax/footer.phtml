@@ -17,8 +17,7 @@ $url 			= 'ezzoom/hole/fill';
 $url_currency   = 'ezzoom/hole/convert';
 $path           = $this->getPath();
 $domain         = $this->getDomain();
-$pagespeed		= ( Mage::getStoreConfig('ezzoom_general/basicsettings/pagespeed_defer') == 1 ) ? ' pagespeed_no_defer=""' : '';
-
+$pagespeed 		= Mage::getStoreConfig('ezzoom_general/basicsettings/pagespeed_defer') ? ' pagespeed_no_defer=""' : '';
 ?>
 <?php if (count($holes) > 0 || $this->getCurrencyConversion()) : ?>
 
